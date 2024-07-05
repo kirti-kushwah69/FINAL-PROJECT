@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME</title>
+    <!--Bootstrap Link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!--css link-->
+    <link rel="stylesheet" href="CSS/STYLE.CSS" />
+  </head>
+  <body  onload="myFunction">
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+      <div class="container-fluid">
+        <a href="" class="navbar-brand">
+          <!-- <img src="IMAGE/logo2.jpg" class="weblogo" /> -->
+          <h1 class="logo">explore everywhere</h1>
+        </a>
+
+        <!--mobile view start-->
+        <button
+          class="navbar-toggler"
+          data-bs-target="#pn"
+          data-bs-toggle="collapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--mobile view end-->
+
+        <!--menu start-->
+        <div class="navbar-collapse collapse text-center" id="pn">
+          <ul class="navbar-nav ms-auto">
+            <li><a href="INDEX.HTML" class="nav-link">Home</a></li>
+            <li><a href="ABOUT.HTML" class="nav-link">About</a></li>
+            <li><a href="DESTINATION.HTML" class="nav-link">Destination</a></li>
+            <li>
+              <a href="TOP ATTRACTION.HTML" class="nav-link">Top Attraction</a>
+            </li>
+            <li><a href="CONTACT.HTML" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+        <!--menu end-->
+      </div>
+      <!--container-fluid end-->
+    </nav>
+    <!--navbar end-->
+
+    <!--slider div start-->
+    <div class="carousel slide" data-bs-ride="carousel" id="s">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#s"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button type="button" data-bs-target="#s" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#s" data-bs-slide-to="2"></button>
+      </div>
+      <!--carousel-indicators-->
+
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <img src="IMAGE/Red_Fort banner1.jpeg" alt="" class="img1" />
+          <div class="carousel-caption">
+            <h2 class="capt">red fort</h2>
+          </div>
+          <!--carousel-caption end-->
+        </div>
+        0
+
+        <div class="carousel-item">
+          <img src="IMAGE/sanchi stupa banner2.jpg" alt="" class="img1" />
+          <div class="carousel-caption">
+            <h2 class="capt">sanchi stupa</h2>
+          </div>
+          <!--carousel-caption end-->
+        </div>
+        1
+
+        <div class="carousel-item">
+          <img src="IMAGE/gateway-of-india banner3.jpg" alt="" class="img1" />
+          <div class="carousel-caption">
+            <h2 class="capt">gateway of india</h2>
+          </div>
+          <!--carousel-caption end-->
+        </div>
+        2
+      </div>
+      <!--carousel-inner end-->
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#s"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#s"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <!--slider div end-->
+
+    <div class="container">
+      <h3 class="hist">historical monuments in india</h3>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <img src="IMAGE/qutub minar h1.jpeg " alt="" class="img2" />
+          <h6 class="s1">qutub minar</h6>
+          <p class="p1">(delhi)</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="IMAGE/Khajuraho1 h2.jpg" alt="" class="img2" />
+          <h6 class="s1">Khajuraho</h6>
+          <p class="p1">(madhya Pradesh)</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="IMAGE/Hampi h3.jpg" alt="" class="img2" />
+          <h6 class="s1">hampi</h6>
+          <p class="p1">(karnatak)</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="IMAGE/ajanta h4.jpg" alt="" class="img2" />
+          <h6 class="s1">ajanta caves</h6>
+          <p class="p1">(maharastra)</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="IMAGE/Ellora h5.jpg" alt="" class="img2" />
+          <h6 class="s1">ellora caves</h6>
+          <p class="p1">(maharastra)</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="IMAGE/bodhgaya h6.jpg" alt="" class="img2" />
+          <h6 class="s1">bodh gaya</h6>
+          <p class="p1">(bihar)</p>
+        </div>
+      </div>
+      <!--row end-->
+    </div>
+    <!--container end-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <img src="IMAGE/Konark_Sun_Temple h7.jpg" alt="" class="img2" />
+          <h6 class="s1">sun temple</h6>
+          <p class="p1">(odisha)</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="IMAGE/red fort h8.jpg" alt="" class="img2" />
+          <h6 class="s1">red fort</h6>
+          <p class="p1">(delhi)</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="IMAGE/humayun's tomb h9.jpg" alt="" class="img2" />
+          <h6 class="s1">humayun tomb</h6>
+          <p class="p1">(delhi)</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="IMAGE/Charminar h10.jpg" alt="" class="img2" />
+          <h6 class="s1">Charminar</h6>
+          <p class="p1">(hyderabad)</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="IMAGE/gateway-of-india h11.jpg" alt="" class="img2" />
+          <h6 class="s1">gateway of india</h6>
+          <p class="p1">(delhi)</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="IMAGE/Taj-Mahal h12.jpg" alt="" class="img2" />
+          <h6 class="s1">taj mahal</h6>
+          <p class="p1">(agra)</p>
+        </div>
+      </div>
+      <!--row end-->
+    </div>
+    <!--container end-->
+
+    <div class="container">
+      <h4 class="animate__animated animate__heartBeat view">india is in the 21st century</h4>
+      <h4 class="head2">
+        india's most influential and iconic structures built in 21st century
+      </h4>
+      <p class="para2 mt-2">
+        India, a developing country has seen a lot of political and
+        socio-cultural shifts in its landscape since the independence.
+        Architecture in India in the 21st centuries has played a major role in
+        nation-building and creating an identity globally. The architecture has
+        changed the social, political, cultural, and economic context of time.
+        The Republic of India is constantly evolving and growing, and so is its
+        architecture. With the emerging technology and resources, India is today
+        almost equal to or matching up to all the major developed countries in
+        the world.
+      </p>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <img src="IMAGE/statue of unity 21st.jpg" alt="" class="img21" />
+        </div>
+        <div class="col-md-6">
+          <p class="new">the statue of unity</p>
+          <p class="new1">
+            The tallest statue in the world is one of the most iconic and
+            influential buildings of 21st-century India. The Statue of Unity
+            depicting former Indian Deputy Prime Minister Sardar Vallabhbhai
+            Patel was designed by Michael Graves Architecture and Design and
+            stands 182 meters tall (almost twice the height of the Statue of
+            Liberty in New York City). The statue required over 18,000 tonnes of
+            reinforced steel and 1,700 tonnes of bronze. This architectural
+            marvel is today India’s biggest victory worldwide.
+          </p>
+        </div>
+      </div>
+      <!--row1 end-->
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-6 mt-2">
+          <p class="new">New Building for the Parliament of India</p>
+          <p class="new1">
+            The new building for the Parliament of India is the first
+            purpose-designed Parliament building for India. The design addresses
+            the present and future needs of efficient Parliamentary functioning.
+            Designed by HCP Designs, is the most impactful and influential
+            building of the 21st century. The building is located on a
+            triangular plot therefore, a triangular building allows for the most
+            efficient use of available space. The trinity of functions – Lok
+            Sabha (the Lower House), Rajya Sabha (the Upper House), and Central
+            Lounge – also work efficiently within the triangular plan. The
+            design is inspired by the present Parliament building, the
+            construction crafts of India, India’s national symbols, and the
+            other buildings at Central Vista.
+          </p>
+        </div>
+        <div class="col-md-5 mt-3">
+          <img src="IMAGE/parliament building 21st.jpg" alt="" class="img21" />
+        </div>
+      </div>
+      <!--row2 end-->
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5 mt-4">
+          <img src="IMAGE/matri.jpg" alt="" class="img21" />
+        </div>
+        <div class="col-md-6 mt-3">
+          <p class="new">Matri Mandir, Pondicherry</p>
+          <p class="new1">
+            The modern and most influential architectural structure that has a
+            cultural, spiritual, social, communal, and sustainable impact on
+            architecture is the Matrimandir in the Auroville village of
+            Pondicherry. A space for yoga, peace, and the soul. It took 37 years
+            to build since its foundation. The entire structure is in the form
+            of a geodesic dome with twelve petals around it, where the exterior
+            façade design has golden discs that reflect the sunlight to generate
+            a radiating surface.
+          </p>
+        </div>
+      </div>
+      <!--row3 end-->
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-6 mt-2">
+          <p class="new">National War Memorial</p>
+          <p class="new1">
+            The National War Memorial is constructed on the idea of the rebirth
+            of those unsung heroes through their stories, journeys, and
+            struggles communicated and expressed in a spatial tangible form. A
+            culmination of the historical Rajpath extending through the India
+            Gate, the National War Memorial is an open landscaped public space
+            spread over 42 acres in the C -hexagon. Progressive acts of
+            protection, sacrifice, bravery, and becoming immortal translate as a
+            concentric arrangement in which the ‘Thyag Chakra’ holds the name of
+            each fallen soldier who becomes another brick in the nation’s
+            defensive wall.
+          </p>
+        </div>
+        <div class="col-md-5 mt-4">
+          <img src="IMAGE/n war memorial 21st.jpg" alt="" class="img21" />
+        </div>
+      </div>
+      <!-- row 4 end -->
+    </div>
+    <!--container end-->
+
+    <!-- footer code start -->
+    <footer>
+      <div class="container-fluid mt-3">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-3 india">
+            <h2>explore everywhere</h2>
+            <p>
+              India has a myriad of landscapes, great heritage and culture,
+              varied flora and fauna. The country is the most preferred tourist
+              destinations for tourists from all across the world for its
+              picturesque landscapes, spectacular waterfalls, habitat of the
+              country's largest tiger reserve and home to the warmest people on
+              earth.
+            </p>
+          </div>
+          
+          <div class="col-md-3 india">
+            <h2>CONTACT</h2>
+            <p>
+              E-mail: Tourism@govtofindia.in <br />
+              E-mail: Tourism@stategovt.in
+            </p>
+
+            <i class="fa-brands fa-facebook org"></i>
+            <i class="fa-brands fa-instagram org"></i>
+            <i class="fa-brands fa-whatsapp org"></i>
+          </div>
+          <div class="col-md-3 india">
+            <h2>ADDRESS</h2>
+            <p>
+              India tourism MUMBAI, Air India Building, Ground floor, Nariman
+              Point, Mumbai, 400 021 
+            </p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <!--row end-->
+      </div>
+      <!--container-fluid end-->
+    </footer>
+    <!-- footer code end -->
+
+    <div class="container-fluid foff">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <p class="foo">
+            PRIVACY POLICY | TERMS AND CONDITIONS |EMERGENCY
+            <br />
+            COPYRIGHT © MINISTRY OF TOURSIM. GOVERNMENT OF INDIA
+          </p>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+      <!--row end-->
+    </div>
+    <!--container-fluid end-->
+
+    <div id="loading">
+
+    </div>
+
+    <script>
+        let preloader = document.getElementById('loading');
+
+        function myFunction(){
+            preloader.style.display = 'none';
+        }
+    </script>
+  </body>
+</html>
